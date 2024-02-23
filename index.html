@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <title>TODO - приложение</title>
+</head>
+<body>
+  <Header class="header">
+    <div class="container">
+      <div class="card">
+        <div class="card-title">
+          <h1 class="title">TODO</h1>
+        </div>
+        <div class="card-body">
+          <form id="form"">
+            <span class="custom">
+              <input class="clean-slide" id="taskInput" type="text" placeholder="Type your task here" required>
+              <label for="taskInput">Task</label>
+            </span>
+            <button type="submit" class="btn btn-5">Add</button>
+          </form>
+        </div>
+    </div>
+    </div>
+  </Header>
+  <main class="main">
+    <div class="container">
+      <div class="tasks-card">
+        <ul class="tasks-group" id="tasksList">
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+</html>
